@@ -20,5 +20,3 @@ VCRUNTIME140_1.dll not found:
 2. Scroll down and download the x64: vc_redist.x64.exe
 3. Run the exe and install it
 4. Fate Injector should open now
-
-#### This project uses wxWidgets [version 3.1.4](https://wxwidgets.org/news/2020/07/wxwidgets-3.1.4-released/).
