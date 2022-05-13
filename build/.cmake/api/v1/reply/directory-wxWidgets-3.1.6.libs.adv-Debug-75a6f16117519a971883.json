@@ -1,0 +1,75 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"wx_install",
+			"wx_add_library"
+		],
+		"files" : 
+		[
+			"wxWidgets-3.1.6/build/cmake/functions.cmake",
+			"wxWidgets-3.1.6/build/cmake/lib/adv/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libwx_gtk3u_adv-3.1.so.6.0.0",
+				"lib/libwx_gtk3u_adv-3.1.so.6"
+			],
+			"targetId" : "wxadv::@c99348c60fb00d21d6a1",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libwx_gtk3u_adv-3.1.so"
+			],
+			"targetId" : "wxadv::@c99348c60fb00d21d6a1",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "wxWidgets-3.1.6/libs/adv",
+		"source" : "wxWidgets-3.1.6/build/cmake/lib/adv"
+	}
+}

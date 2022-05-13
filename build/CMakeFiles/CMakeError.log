@@ -1,0 +1,355 @@
+Performing C++ SOURCE FILE Test ICONV_SECOND_ARGUMENT_IS_CONST failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_445b0 && [1/2] Building CXX object CMakeFiles/cmTC_445b0.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_445b0.dir/src.cxx.o 
+/usr/bin/clang++ -DICONV_SECOND_ARGUMENT_IS_CONST   -MD -MT CMakeFiles/cmTC_445b0.dir/src.cxx.o -MF CMakeFiles/cmTC_445b0.dir/src.cxx.o.d -o CMakeFiles/cmTC_445b0.dir/src.cxx.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/src.cxx
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/src.cxx:9:5: error: no matching function for call to 'iconv'
+    iconv(conv, &in, &ilen, &out, &olen);
+    ^~~~~
+/usr/include/iconv.h:42:15: note: candidate function not viable: no known conversion from 'const char **' to 'char **__restrict' for 2nd argument
+extern size_t iconv (iconv_t __cd, char **__restrict __inbuf,
+              ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+  #include <iconv.h>
+  int main(){
+    iconv_t conv = 0;
+    const char* in = 0;
+    size_t ilen = 0;
+    char* out = 0;
+    size_t olen = 0;
+    iconv(conv, &in, &ilen, &out, &olen);
+    return 0;
+  }
+
+Performing C++ SOURCE FILE Test HAVE_HASH_MAP failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6957d && [1/2] Building CXX object CMakeFiles/cmTC_6957d.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_6957d.dir/src.cxx.o 
+/usr/bin/clang++ -DHAVE_HASH_MAP -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_6957d.dir/src.cxx.o -MF CMakeFiles/cmTC_6957d.dir/src.cxx.o.d -o CMakeFiles/cmTC_6957d.dir/src.cxx.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/src.cxx
+In file included from /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/src.cxx:1:
+In file included from /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward/hash_map:60:
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header which   may be removed without further notice at a future date. Please use a   non-deprecated interface with equivalent functionality instead. For a   listing of replacement headers and interfaces, consult the file   backward_warning.h. To disable this warning use -Wno-deprecated. [-W#warnings]
+#warning \
+ ^
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/src.cxx:7:5: error: no template named 'hash_map' in namespace 'std'; did you mean '__gnu_cxx::hash_map'?
+    std::hash_map<double*, char*, std::hash<double*>, std::equal_to<double*> > test1;
+    ^~~~~~~~~~~~~
+    __gnu_cxx::hash_map
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward/hash_map:83:11: note: '__gnu_cxx::hash_map' declared here
+    class hash_map
+          ^
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/src.cxx:8:5: error: no template named 'hash_set' in namespace 'std'; did you mean '__gnu_cxx::hash_set'?
+    std::hash_set<char*, std::hash<char*>, std::equal_to<char*> > test2;
+    ^~~~~~~~~~~~~
+    __gnu_cxx::hash_set
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward/hash_set:84:11: note: '__gnu_cxx::hash_set' declared here
+    class hash_set
+          ^
+1 warning and 2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <hash_map>
+#include <hash_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::hash_map<double*, char*, std::hash<double*>, std::equal_to<double*> > test1;
+    std::hash_set<char*, std::hash<char*>, std::equal_to<char*> > test2;
+return 0; }
+Determining if the prototype gethostbyname_r exists for HAVE_FUNC_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1490e && [1/2] Building C object CMakeFiles/cmTC_1490e.dir/CheckPrototypeDefinition.c.o
+FAILED: CMakeFiles/cmTC_1490e.dir/CheckPrototypeDefinition.c.o 
+/usr/bin/clang -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_1490e.dir/CheckPrototypeDefinition.c.o -MF CMakeFiles/cmTC_1490e.dir/CheckPrototypeDefinition.c.o.d -o CMakeFiles/cmTC_1490e.dir/CheckPrototypeDefinition.c.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:66: warning: declaration of 'struct hostent_data' will not be visible outside of this function [-Wvisibility]
+int gethostbyname_r(const char *name, struct hostent *hp, struct hostent_data *hdata) {
+                                                                 ^
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:5: error: conflicting types for 'gethostbyname_r'
+int gethostbyname_r(const char *name, struct hostent *hp, struct hostent_data *hdata) {
+    ^
+/usr/include/netdb.h:177:12: note: previous declaration is here
+extern int gethostbyname_r (const char *__restrict __name,
+           ^
+1 warning and 1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+#include <netdb.h>
+
+
+static void cmakeRequireSymbol(int dummy, ...) {
+  (void) dummy;
+}
+
+static void checkSymbol(void) {
+#ifndef gethostbyname_r
+  cmakeRequireSymbol(0, &gethostbyname_r);
+#endif
+}
+
+int gethostbyname_r(const char *name, struct hostent *hp, struct hostent_data *hdata) {
+  return 0;
+}
+
+#ifdef __CLASSIC_C__
+int main() {
+  int ac;
+  char*av[];
+#else
+int main(int ac, char *av[]) {
+#endif
+  checkSymbol();
+  if (ac > 1000) {
+    return *av[0];
+  }
+  return 0;
+}
+
+
+Determining if the prototype gethostbyname_r exists for HAVE_FUNC_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_69119 && [1/2] Building C object CMakeFiles/cmTC_69119.dir/CheckPrototypeDefinition.c.o
+FAILED: CMakeFiles/cmTC_69119.dir/CheckPrototypeDefinition.c.o 
+/usr/bin/clang -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_69119.dir/CheckPrototypeDefinition.c.o -MF CMakeFiles/cmTC_69119.dir/CheckPrototypeDefinition.c.o.d -o CMakeFiles/cmTC_69119.dir/CheckPrototypeDefinition.c.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:17: error: conflicting types for 'gethostbyname_r'
+struct hostent *gethostbyname_r(const char *name, struct hostent *hp, char *buf, size_t buflen, int *herr) {
+                ^
+/usr/include/netdb.h:177:12: note: previous declaration is here
+extern int gethostbyname_r (const char *__restrict __name,
+           ^
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:15:10: error: use of undeclared identifier 'NULL'
+  return NULL;
+         ^
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+
+#include <netdb.h>
+
+
+static void cmakeRequireSymbol(int dummy, ...) {
+  (void) dummy;
+}
+
+static void checkSymbol(void) {
+#ifndef gethostbyname_r
+  cmakeRequireSymbol(0, &gethostbyname_r);
+#endif
+}
+
+struct hostent *gethostbyname_r(const char *name, struct hostent *hp, char *buf, size_t buflen, int *herr) {
+  return NULL;
+}
+
+#ifdef __CLASSIC_C__
+int main() {
+  int ac;
+  char*av[];
+#else
+int main(int ac, char *av[]) {
+#endif
+  checkSymbol();
+  if (ac > 1000) {
+    return *av[0];
+  }
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test wxSIZE_T_IS_NOT_ULONG failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_21d7b && [1/2] Building CXX object CMakeFiles/cmTC_21d7b.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_21d7b.dir/src.cxx.o 
+/usr/bin/clang++ -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxSIZE_T_IS_NOT_ULONG -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_21d7b.dir/src.cxx.o -MF CMakeFiles/cmTC_21d7b.dir/src.cxx.o.d -o CMakeFiles/cmTC_21d7b.dir/src.cxx.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/src.cxx
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/src.cxx:7:49: error: class member cannot be redeclared
+            struct Foo { void foo(size_t); void foo(unsigned long); };
+                                                ^
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/src.cxx:7:31: note: previous declaration is here
+            struct Foo { void foo(size_t); void foo(unsigned long); };
+                              ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <stddef.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(size_t); void foo(unsigned long); };
+
+            int bar() {
+return 0; }
+Determining if the ftime exist failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e5dc8 && [1/2] Building C object CMakeFiles/cmTC_e5dc8.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e5dc8.dir/CheckSymbolExists.c.o 
+/usr/bin/clang -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_e5dc8.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e5dc8.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e5dc8.dir/CheckSymbolExists.c.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'ftime'; did you mean 'fwide'?
+  return ((int*)(&ftime))[argc];
+                  ^~~~~
+                  fwide
+/usr/include/wchar.h:588:12: note: 'fwide' declared here
+extern int fwide (__FILE *__fp, int __mode) __THROW;
+           ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftime
+  return ((int*)(&ftime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the putws exist failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_589ad && [1/2] Building C object CMakeFiles/cmTC_589ad.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_589ad.dir/CheckSymbolExists.c.o 
+/usr/bin/clang -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_589ad.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_589ad.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_589ad.dir/CheckSymbolExists.c.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'putws'
+  return ((int*)(&putws))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putws
+  return ((int*)(&putws))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsrctombs exist failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_74f1d && [1/2] Building C object CMakeFiles/cmTC_74f1d.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_74f1d.dir/CheckSymbolExists.c.o 
+/usr/bin/clang -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_74f1d.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_74f1d.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_74f1d.dir/CheckSymbolExists.c.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'wcsrctombs'; did you mean 'wcsrtombs'?
+  return ((int*)(&wcsrctombs))[argc];
+                  ^~~~~~~~~~
+                  wcsrtombs
+/usr/include/wchar.h:344:15: note: 'wcsrtombs' declared here
+extern size_t wcsrtombs (char *__restrict __dst,
+              ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsrctombs
+  return ((int*)(&wcsrctombs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the round exist failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_10b47 && [1/2] Building CXX object CMakeFiles/cmTC_10b47.dir/CheckSymbolExists.cxx.o
+FAILED: CMakeFiles/cmTC_10b47.dir/CheckSymbolExists.cxx.o 
+/usr/bin/clang++ -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_10b47.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_10b47.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_10b47.dir/CheckSymbolExists.cxx.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: address of overloaded function 'round' does not match required type 'int'
+  return ((int*)(&round))[argc];
+                  ^~~~~
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/cmath:1760:3: note: candidate function
+  round(long double __x)
+  ^
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/cmath:1756:3: note: candidate function
+  round(float __x)
+  ^
+/usr/include/bits/mathcalls.h:301:14: note: candidate function
+__MATHCALLX (round,, (_Mdouble_ __x), (__const__));
+             ^
+/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/cmath:1768:5: note: candidate template ignored: could not match 'typename __gnu_cxx::__enable_if<__is_integer<_Tp>::__value, double>::__type (_Tp)' against 'int'
+    round(_Tp __x)
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file wcstr.h exists failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a81ec && [1/2] Building C object CMakeFiles/cmTC_a81ec.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_a81ec.dir/CheckIncludeFile.c.o 
+/usr/bin/clang -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_a81ec.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a81ec.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a81ec.dir/CheckIncludeFile.c.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'wcstr.h' file not found
+#include <wcstr.h>
+         ^~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file xlocale.h exists failed with the following output:
+Change Dir: /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_677f7 && [1/2] Building C object CMakeFiles/cmTC_677f7.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_677f7.dir/CheckIncludeFile.c.o 
+/usr/bin/clang -D_GNU_SOURCE -D__LINUX__ -D__UNIX__ -DwxUSE_UNIX   -MD -MT CMakeFiles/cmTC_677f7.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_677f7.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_677f7.dir/CheckIncludeFile.c.o -c /home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'xlocale.h' file not found
+#include <xlocale.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+

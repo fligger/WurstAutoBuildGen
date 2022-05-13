@@ -1,0 +1,156 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include",
+			"wx_install"
+		],
+		"files" : 
+		[
+			"wxWidgets-3.1.6/build/cmake/install.cmake",
+			"wxWidgets-3.1.6/build/cmake/main.cmake",
+			"wxWidgets-3.1.6/CMakeLists.txt",
+			"wxWidgets-3.1.6/build/cmake/functions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 85,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 85,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 85,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/wx-3.1",
+			"paths" : 
+			[
+				"wxWidgets-3.1.6/include/wx"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/wx/include",
+			"paths" : 
+			[
+				"build/lib/wx/include/gtk3-unicode-3.1"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib/wx/config",
+			"paths" : 
+			[
+				"build/lib/wx/config/gtk3-unicode-3.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				""
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "wxWidgets-3.1.6",
+		"source" : "wxWidgets-3.1.6"
+	}
+}

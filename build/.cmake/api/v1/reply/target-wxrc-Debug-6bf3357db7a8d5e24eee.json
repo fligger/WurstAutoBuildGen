@@ -1,0 +1,279 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/wxrc-3.1"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"wx_install",
+			"target_link_libraries",
+			"wx_exe_link_libraries",
+			"target_compile_options",
+			"wx_set_common_target_properties",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"wxWidgets-3.1.6/build/cmake/utils/CMakeLists.txt",
+			"wxWidgets-3.1.6/build/cmake/functions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 486,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 486,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 152,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 12
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIE"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-ctor-dtor-privacy"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "WXUSINGDLL"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__WXGTK3__"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__WXGTK__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/lib/wx/include/gtk3-unicode-3.1"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/wxWidgets-3.1.6/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "wxbase::@23514ad868bd307f63b0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "wxxml::@5957254893347c4c6121"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Utilities"
+	},
+	"id" : "wxrc::@c56739e653168739c1de",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic -pthread",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libwx_baseu_xml-3.1.so.6.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/libwx_baseu-3.1.so.6.0.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "wxrc",
+	"nameOnDisk" : "wxrc-3.1",
+	"paths" : 
+	{
+		"build" : "wxWidgets-3.1.6/utils",
+		"source" : "wxWidgets-3.1.6/build/cmake/utils"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/utils/wxrc/wxrc.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

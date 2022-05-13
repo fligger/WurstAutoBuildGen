@@ -1,0 +1,2577 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libwx_baseu-3.1.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"wx_add_library",
+			"install",
+			"wx_install",
+			"target_link_libraries",
+			"wx_lib_link_libraries",
+			"target_compile_options",
+			"wx_set_common_target_properties",
+			"wx_set_target_properties",
+			"target_compile_definitions",
+			"target_include_directories",
+			"wx_lib_include_directories",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"wxWidgets-3.1.6/build/cmake/functions.cmake",
+			"wxWidgets-3.1.6/build/cmake/lib/base/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 413,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 415,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 373,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 347,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 275,
+				"parent" : 13
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 297,
+				"parent" : 13
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 26
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-ctor-dtor-privacy"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "DLL_EXPORTS"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "WXBUILDING"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "WXDLLNAME=wx_baseu-3.1"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "WXMAKINGDLL_BASE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "_LIB"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__WXGTK3__"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__WXGTK__"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "wxUSE_BASE=1"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "wxUSE_GUI=0"
+				},
+				{
+					"define" : "wxbase_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/libsecret-1"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/lib/glib-2.0/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/sysprof-4"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/libmount"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/blkid"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/gio-unix-2.0"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/tss2"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/lib/wx/include/gtk3-unicode-3.1"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/wxWidgets-3.1.6/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-ctor-dtor-privacy"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "DLL_EXPORTS"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "WXBUILDING"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "WXDLLNAME=wx_baseu-3.1"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "WXMAKINGDLL_BASE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "_LIB"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__WXGTK3__"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__WXGTK__"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "wxUSE_BASE=1"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "wxUSE_GUI=0"
+				},
+				{
+					"define" : "wxbase_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/libsecret-1"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/lib/glib-2.0/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/sysprof-4"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/libmount"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/blkid"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/gio-unix-2.0"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/usr/include/tss2"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/build/lib/wx/include/gtk3-unicode-3.1"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen/wxWidgets-3.1.6/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/home/user/Dokumente/Source/vscode/c++/WurstAutoBuildGen"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				19
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Libraries"
+	},
+	"id" : "wxbase::@23514ad868bd307f63b0",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-pthread",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/usr/lib/libpcre2-32.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lsecret-1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lgio-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lgobject-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lglib-2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "wxbase",
+	"nameOnDisk" : "libwx_baseu-3.1.so",
+	"paths" : 
+	{
+		"build" : "wxWidgets-3.1.6/libs/base",
+		"source" : "wxWidgets-3.1.6/build/cmake/lib/base"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				95,
+				160,
+				208,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293
+			]
+		},
+		{
+			"name" : "Setup Headers",
+			"sourceIndexes" : 
+			[
+				294
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/any.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/appbase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/arcall.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/arcfind.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/archive.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/arrstr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/base64.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/clntdata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/cmdline.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/config.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/convauto.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/datetime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/datetimefmt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/datstrm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/dircmn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/dynlib.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/dynload.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/encconv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/evtloopcmn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "wxWidgets-3.1.6/src/common/extended.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/ffile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/file.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/fileback.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/fileconf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/filefn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/filename.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/filesys.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/filtall.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/filtfind.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/fmapbase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/fs_arc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/fs_filter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/hash.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/hashmap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/init.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/intl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/ipcbase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/languageinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/list.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/longlong.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/memory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/mimecmn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/module.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/mstream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/numformatter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/object.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/platinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/powercmn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/process.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/regex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/secretstore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/stdpbase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/sstream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/stdstream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/stopwatch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/strconv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/stream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/string.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/stringimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/stringops.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/strvararg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/sysopt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/tarstrm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/textbuf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/textfile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/threadinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/time.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/timercmn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/timerimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/tokenzr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/translation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/txtstrm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/unichar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/uri.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/ustring.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/variant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/wfstream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/wxcrt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/wxprintf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/xlocale.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/xti.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/xtistrm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/zipstrm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/zstream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/fswatchercmn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/generic/fswatcherg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/lzmastream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/uilocale.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/afterstd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/any.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/anystr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/app.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/apptrait.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/archive.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/arrimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/arrstr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/atomic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/base64.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/beforestd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/buffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/build.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/chartype.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/checkeddelete.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/chkconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/clntdata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/cmdargs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/cmdline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/compiler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/confbase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/convauto.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/containr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/cpp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/crt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/datetime.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/datstrm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/dde.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/debug.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/defs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/dir.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/dlimpexp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/dlist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/dynarray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/dynlib.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/dynload.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/encconv.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/event.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/eventfilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/evtloop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/evtloopsrc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/except.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/features.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/flags.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/ffile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/file.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/fileconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/filefn.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/filename.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/filesys.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/fontenc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/fontmap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/fs_arc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/fs_filter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/fs_mem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/fs_zip.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/hash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/hashmap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/hashset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/iconloc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/init.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/intl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/iosfwrap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/ioswrap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/ipc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/ipcbase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/kbdstate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/language.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/link.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/list.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/listimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/log.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/longlong.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/math.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/memconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/memory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/memtext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/mimetype.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/module.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/mousestate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/msgout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/msgqueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/mstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/numformatter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/object.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/platform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/platinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/power.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/process.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/ptr_scpd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/ptr_shrd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/recguard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/regex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/rtti.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/scopedarray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/scopedptr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/scopeguard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/secretstore.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/sharedptr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/snglinst.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/sstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/stack.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/stackwalk.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/stdpaths.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/stdstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/stockitem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/stopwatch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/strconv.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/stream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/stringimpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/stringops.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/strvararg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/sysopt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/tarstrm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/textbuf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/textfile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/thread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/thrimpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/time.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/timer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/tls.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/tokenzr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/tracker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/translation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/txtstrm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/typeinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unichar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/uri.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/ustring.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/variant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/vector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/versioninfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/volume.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/weakref.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/wfstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/wx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/wxchar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/wxcrt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/wxcrtbase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/wxcrtvararg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/wxprec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/xlocale.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/xti.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/xti2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/xtistrm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/xtictor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/xtihandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/xtiprop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/xtitypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/zipstrm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/zstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/meta/convertible.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/meta/if.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/meta/implicitconversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/meta/int2type.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/meta/movable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/meta/pod.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/meta/removeref.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/fswatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/generic/fswatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/lzmastream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/localedefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/uilocale.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/event.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/fs_mem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/msgout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/utilscmn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/fdiodispatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/common/selectdispatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/appunix.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/dir.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/dlunix.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/epolldispatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/evtloopunix.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/fdiounix.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/snglinst.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/stackwalk.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/timerunx.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/threadpsx.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/utilsunx.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/wakeuppipe.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/fswatcher_kqueue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/mimetype.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/fswatcher_inotify.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/secretstore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/stdpaths.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "wxWidgets-3.1.6/src/unix/uilocale.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/app.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/apptbase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/apptrait.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/chkconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/evtloop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/evtloopsrc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/pipe.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/stackwalk.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/tls.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/fswatcher_kqueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/mimetype.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/fswatcher_inotify.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "wxWidgets-3.1.6/include/wx/unix/stdpaths.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/lib/wx/include/gtk3-unicode-3.1/wx/setup.h",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
